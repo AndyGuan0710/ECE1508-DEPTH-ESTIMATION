@@ -42,11 +42,9 @@ pip install -r requirements.txt
 
 To train the U-Net model for single-image depth estimation:
 
-1. Open the `part1.ipynb` notebook in Google Colab.
-2. Ensure the runtime is set to use a **T4 GPU**:
-   - Go to `Runtime > Change runtime type`.
-   - Set `Hardware accelerator` to `GPU`.
-3. Execute the cells to:
+1. Open the `part1_train.py` notebook in Google Colab.
+2. Ensure the GPU has at least 14G memory
+3. Run the file to:
    - Load the NYU Depth V2 dataset.
    - Train the model for 30 epochs.
    - Save intermediate model weights (`model_epoch_#.pth`) to the working directory.
