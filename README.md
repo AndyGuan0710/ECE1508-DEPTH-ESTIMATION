@@ -70,7 +70,7 @@ To train the U-Net model with temporal loss for video depth prediction:
 
 To evaluate and analyze the performance of the trained models:
 
-1. Open the `Metrics&predict-video.ipynb` notebook in Google Colab.
+1. Open the `Metrics&predict-video.ipynb` and `video_compare.ipynb` notebook in Google Colab.
 2. Ensure the runtime is set to use a **L4 GPU**:
    - Go to `Runtime > Change runtime type`.
    - Set `Hardware accelerator` to `GPU`.
